@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>za.co.localrepo</groupId>
+  <artifactId>SnapshotLibraryProject</artifactId>
+  <versioning>
+    <versions>
+      <version>11.2-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20190108103647</lastUpdated>
+  </versioning>
+</metadata>

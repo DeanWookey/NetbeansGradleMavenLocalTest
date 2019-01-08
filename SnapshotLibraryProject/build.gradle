@@ -1,0 +1,11 @@
+apply plugin: 'maven'
+
+version = '11.2-SNAPSHOT'
+
+uploadArchives { 
+    repositories {
+        mavenDeployer {
+             snapshotRepository(url: "file://${rootDir}/LocalMavenRepository")
+        }
+    }
+}

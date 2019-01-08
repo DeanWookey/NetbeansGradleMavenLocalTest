@@ -1,0 +1,15 @@
+
+if (!hasProperty('mainClass')) {
+    ext.mainClass = 'za.co.localrepository.main'
+}
+
+repositories {
+    maven {
+        url "file://${rootDir}/LocalMavenRepository"
+    }
+}
+
+dependencies {
+    compile group: "za.co.localrepo", name: "SnapshotLibraryProject", version: "11.2-SNAPSHOT", changing: true
+    compile group: "za.co.localrepo", name: "LibraryProject", version: "7.2"
+}

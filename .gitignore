@@ -1,0 +1,10 @@
+**/.gradle
+**/.nb-gradle/private
+/.nb-gradle/
+.nb-gradle-properties
+
+**/local.properties
+
+/DependentProject/build/
+/LibraryProject/build/
+/SnapshotLibraryProject/build/

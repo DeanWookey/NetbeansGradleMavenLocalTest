@@ -1,0 +1,12 @@
+apply plugin: 'maven'
+
+version = "7.2"
+
+
+uploadArchives { 
+    repositories {
+        mavenDeployer {
+             repository(url: "file://${rootDir}/LocalMavenRepository")
+        }
+    }
+}
